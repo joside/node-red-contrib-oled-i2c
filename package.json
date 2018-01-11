@@ -1,0 +1,37 @@
+{
+  "name": "node-red-contrib-oled-i2c",
+  "version": "1.0.0",
+  "description": "Some nodes to write on a OLED display connected via I2C ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joside/node-red-contrib-oled-i2c.git"
+  },
+  "keywords": [
+    "raspberry",
+    "oled",
+    "node",
+    "nodered",
+    "node-red",
+    "i2c"
+  ],
+  "author": "Michael Jostmeyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joside/node-red-contrib-oled-i2c/issues"
+  },
+  "homepage": "https://github.com/joside/node-red-contrib-oled-i2c#readme",
+  "dependencies": {
+    "i2c-bus": "^1.2.5",
+    "oled-font-5x7": "^1.0.0",
+    "oled-i2c-bus": "^1.0.10"
+  },
+  "node-red": {
+    "nodes": {
+      "oled": "oled.js"
+    }
+  }
+}
